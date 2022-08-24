@@ -18,6 +18,8 @@
 header {
     background-color: #4C47F6;
     color: #ffffff;
+    width: 100%;
+    overflow: hidden;
 }
 
 
@@ -388,4 +390,394 @@ nav {
 .logos-list .list-items {
     display: inline-block;
     margin-left: 1rem;
+}
+
+
+
+
+
+
+/* ------------------------------ */
+/* ---------RESPONSIVE-USING-MEDIA-QUERIES----------- */
+/* ------------------------------ */
+
+
+
+
+
+
+   /* ---------LARGER-SCREEN------------ */
+
+@media screen and (max-width: 1300px) {
+
+
+
+
+    /* -------------HEADER-SECTION------------- */
+
+    .header-image img {
+        display: inline-block;
+        width: 35rem;
+    }
+
+    .header-text {
+        width: 94%;
+        margin-left: 6%;
+        margin-top: 4rem;
+        padding-bottom: 8rem;
+    }
+    
+    .header-text h2 {
+        font-size: 2rem;
+        margin-bottom: 1.7rem;
+        color:#DFD8FC;
+    }
+    
+    .header-text p {
+        font-size: 0.9rem;
+        color: #DFD8FC;
+        
+    }
+
+/* -------------COMPANY-SECTION------------- */
+
+    .companies {
+        margin-left: 3%;
+    }
+    
+    .company-items {
+        font-family: 'Righteous';
+        display: inline-block;
+        text-decoration: none;
+        color: #000000;
+        font-size: 1.3rem;
+        margin: 1.2rem;
+    }
+
+
+    /* -------------BLOG_SECTION------------- */
+
+    .blog-bottom {
+        position: absolute;
+        bottom: -3rem;
+    }
+    
+    .blog-author {
+        display: block;
+        position: absolute;
+        bottom: -2.2rem;
+        left: 7rem;
+        width: 70%;
+    }
+
+
+    .blog-data {
+        padding: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 0;
+        padding-left: 2rem;
+        box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+        position: relative;
+        height: 100%;
+    
+    }
+
+
+
+/* -------------FAQ-SECTION---------------- */
+
+    .faq-content {
+        margin-left: 6%;
+        margin-top: 3rem;
+        padding-bottom: 2rem; 
+        height:100%
+    }
+
+
+}
+
+
+/* ---------LARGE-SCREEN------------ */
+
+@media screen and (max-width: 1080px) { 
+
+    /* -------------HEADER-SECTION---------------- */
+
+    .header-text {
+        width: 94%;
+        margin-left: 6%;
+        margin-top: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    .header-image img {
+        display: inline-block;
+        width: 25rem;
+    }
+
+    .header-text h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1.3rem;
+        color:#DFD8FC;
+    }
+
+    .header-text p {
+        width:40%;
+        font-size: 0.9rem;
+        color: #DFD8FC;
+        
+    }
+    
+
+    /* -------------COMPANY-SECTION--------------- */
+
+    .companies {
+        margin-left: 1%;
+    }
+    
+    .company-items {
+        font-family: 'Righteous';
+        display: inline-block;
+        text-decoration: none;
+        color: #000000;
+        font-size: 1rem;
+        margin: 0.3rem;
+    }
+
+
+
+    /* ------------API------------- */
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+    /* -------------BLOG-SECTION------------ */
+
+    .blog-cards {
+        width: 88%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .blog-heading {
+        margin-left: 6%;
+        margin-bottom: 2rem;
+    }
+    
+    .blog-heading h1 {
+        font-family: 'Righteous';
+        
+    }
+    
+    .blog-data {
+        padding: 1rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+        padding-left: 2rem;
+        box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+        position: relative;
+        height: 100%;
+    
+    }
+
+    .blog-card {
+        width:70%;
+        margin-bottom: 5rem;
+        height: 100%;
+    }
+    
+    .blog-image img {
+        display: inline-block;
+        width:15rem;
+        height: 100%;
+    }
+    
+    .blog-content h6 {
+        color: #5E48F6;
+    }
+    
+    .blog-content h3 {
+        font-family: 'Righteous';
+        font-size: 1.4rem;
+        margin: 2rem 0;
+    }
+
+    .blog-content {
+        padding-bottom: 2.2rem
+    }
+    
+    .blog-bottom {
+        position: absolute;
+        bottom: -2.7rem;
+    }
+    
+    .blog-author {
+        display: block;
+        position: absolute;
+        font-size: 0.8rem;
+        bottom: -2rem;
+        left: 6rem;
+        width: 50%;
+    }
+
+}
+
+
+
+
+/* ---------MEDIUM-SCREEN------------ */
+
+@media screen and (max-width: 740px) { 
+
+    /* -----------HEADER-SECTION-------------- */
+
+    header {
+        background-color: #4C47F6;
+        color: #ffffff;
+        width: 100%;
+        overflow: hidden;
+    }
+    nav {
+        display: none;
+        float: none;
+    }
+   
+    .header-image {
+        position: static;
+        right: 0%;
+        top: 8%;
+    }
+
+
+    .header-text {
+        width: 94%;
+        margin-left: 6%;
+        margin-top: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    .header-image img {
+        display: inline-block;
+        width: 28rem;
+    }
+
+    .header-text h2 {
+        font-size: 2rem;
+        margin-bottom: 1.3rem;
+        color:#DFD8FC;
+    }
+
+    .header-text p {
+        width:100%;
+        font-size: 0.9rem;
+        color: #DFD8FC;
+        
+    }
+
+
+
+
+    /* ----------blog-section------------- */
+
+    .blog-card {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+
+    .blog-image img {
+        display: inline-block;
+        width:100%;
+        
+    }
+
+
+    .blog-card {
+        width:70%;
+        margin-bottom: 5rem;
+        height: 100%;
+    }
+
+
+    /* ------------FAQ-SECTION----------- */
+
+
+    .faq-section {
+        width: 88%;
+        margin: 0 auto;
+        display: flex;
+        margin-top:4rem;
+        flex-direction: column-reverse
+    }
+
+
+    /* ----------------DOWNLOAD-SECTION--------------- */
+
+
+    .download-section {
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        margin: 4rem auto;
+       
+    }
+
+    .download-email button {
+        display: inline-block;
+        padding: 0.5rem 2rem;
+        background-color: #5E48F6;
+        color: #ffffff;
+        border-radius: 2rem;
+        border: none;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+
+    .download-email input {
+        padding: 0.5rem 1rem;
+        padding-right: 5rem;
+        border-radius: 1rem;
+        border: none;
+        background-color: #E9EDFD;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+
+    /* ---------FOOTER-SECTION----------- */
+
+    .footer-section {
+        background-color: #5E48F6;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-right {
+        margin-right: 6%;
+        margin-bottom: 2rem;
+        padding-left: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .footer-logos {
+        margin-top: 2rem;
+    }
+
+    .footer-logo {
+        display: inline-block;
+        margin-left: 0.5rem;
+    }
 }
